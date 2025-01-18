@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragil Portofolio</title>
+    <link rel="icon" href="assets/icon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Teko:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-body-background2">
+
+
+    <!-- header start -->
+    <header class="bg-body-background pt-10 top-0 left-0  w-full flex items-center z-10 ">
+        <div class=" absolute w-[100%]">
+            <div class="flex items-center justify-between relative  w-full backdrop-blur-md">
+
+                <div class="px-4 ">
+                    <a href="#home" class=" text-body-judul font-bold text-2xl block py-6 font-teko">gilPorto</a>
+                </div>
+
+
+
+                <button id="button" name="button" type="button" class="block absolute right-4 sm:hidden mr-1 ">
+                    <span class="button-line transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="button-line  transition duration-300 ease-in-out"></span>
+                    <span class="button-line  transition duration-300 ease-in-out  origin-bottom-left"></span>
+                </button>
+            </div>
+
+
+
+
+
+            <nav
+                class="hidden absolute py-5  bg-body-background2 bg-opacity-80  shadow-lg rounded-b-lg  w-full right-0 top-full sm:block sm:bg-transparent sm:shadow-none sm:rounded-none backdrop-blur-md  sm:w-fit sm:-mt-16 sm:backdrop-blur-0 sm:mr-4">
+
+                <ul class=" flex justify-center gap-5 sm:place-content-end ">
+
+                    <li class="group">
+                        <a href="#home"
+                            class="text-base text-body-judul    group-hover:text-body-hover font-inter font-semibold">Home</a>
+                    </li>
+
+                    <li class="group ">
+                        <a href="#about"
+                            class="text-base text-body-judul    group-hover:text-body-hover font-inter font-semibold">About</a>
+                    </li>
+
+                    <li class="group ">
+                        <a href="#portofolio"
+                            class="text-base text-body-judul   group-hover:text-body-hover font-inter font-semibold">Portofolio</a>
+                    </li>
+
+                    <li class="group ">
+                        <a href="#contact"
+                            class="text-base text-body-judul   group-hover:text-body-hover font-inter font-semibold">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+
+    </header>
+    <!-- header end -->
+
+
+    <!-- home start -->
+    <section class="bg-body-background flex justify-center flex-wrap py-32 " id="home">
+
+
+        <div class="flex flex-nowrap flex-col   w-fit h-fit">
+            <div class="flex flex-nowrap" id="txt1">
+                <p class="font-teko font-bold text-2xl text-body-judul">Hello
+
+                <div class=" w-6 animate-hello">
+                    👋
+                </div>
+
+                <span class="font-teko font-bold text-2xl text-body-judul">I'M </span></p>
+            </div>
+
+            <div class="flex flex-col flex-nowrap whitespace-nowrap">
+                <p id="txthome" class="font-teko font-bold text-5xl text-body-judul"></p>
+                <p id="txt2" class="font-teko font-bold text-2xl text-body-judul">Welcome to My Website</p>
+            </div>
+
+        </div>
+
+
+
+        <div class=" flex w-full justify-center lg:gap-10 lg:mt-3">
+            <div id="iconhome1" class=" h-11 w-28">
+                <a href="assets/pdf/cv.pdf" download="cv.pdf" class="-mt-8 ml-8">
+                    <div
+                        class="bg-body-hover2 px-2 py-2 rounded-full hover:bg-body-card transition duration-300 flex-nowrap absolute mr-48 ">
+
+                        <p class="text-body-judul font-inter font-semibold  text-sm whitespace-nowrap">Download Cv</p>
+
+                    </div>
+
+                </a>
+            </div>
+
+
+
+            <div id="iconhome2" class=" flex   gap-2">
+
+                <a href="https://github.com/gil1959" target="_blank" class="">
+                    <svg role="img" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="hover:opacity-2 transition duration-200">
+                        <title>GitHub</title>
+                        <path
+                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                    </svg>
+                </a>
+                <a href="mailto:carolineciselia@gmail.com">
+                    <svg role="img" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="hover:opacity-2 transition duration-200">
+                        <title>Gmail</title>
+                        <path
+                            d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/ragil-kurniawan-7a96b3336/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" viewBox="0 0 50 50"
+                        class="hover:opacity-2 transition duration-200">
+                        <path
+                            d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z">
+                        </path>
+                    </svg>
+
+                </a>
+                <a href="https://wa.me/6285709271847" target="_blank">
+                    <svg role="img" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="hover:opacity-2 transition duration-200">
+                        <title>WhatsApp</title>
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/ragil9675/profilecard/?igsh=eTY5eDl5cG14YTV2" target="_blank">
+                    <svg role="img" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="hover:opacity-2 transition duration-200">
+                        <title>Instagram</title>
+                        <path
+                            d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+
+
+
+
+        <div id="arrow1" class="  items-center justify-center">
+            <a href="#about">
+                <button id="arrow" name="button" type="button" class="bg-body-background2 mt-40
+              rounded-full animate-bounce py-1 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" class="mx-4 my-4  "
+                        fill="#e8eaed">
+                        <path d="M440-800v487L216-537l-56 57 320 320 320-320-56-57-224 224v-487h-80Z" />
+                    </svg>
+                </button>
+            </a>
+        </div>
+
+
+
+
+    </section>
+    <!-- home end -->
+
+
+    <!-- about start -->
+
+    <!-- deskripsi start -->
+    <div id="about" class="relative  bg-body-background2 w-full h-[35rem] sm:h-[26rem] lg:h-[20rem]">
+
+        <div class="bg-body-background   rounded-lg  flex flex-col items-center absolute  mx-6 mt-14"
+            data-aos="fade-down" data-aos-offset="100">
+
+            <button class="bg-body-hover2  p-2 px-[15px]  rounded-lg flex gap-3 mt-2" name="button" type="button"
+                id="lang2">
+                <p class="font-teko text-2xl text-body-judul ">ENG</p>
+                <p class="font-teko text-2xl text-body-judul opacity-1">IND</p>
+            </button>
+
+            <div class=" w-fit  mt-3">
+                <p class="font-inter text-lg font-semibold text-body-judul">About Me</p>
+            </div>
+
+
+
+            <div class="m-4 ">
+
+                <p class="text-body-text">
+                    Hello, I'm Ragil Kurniawan. I'm a professional web developer with expertise in creating modern,
+                    responsive and functional websites. Currently, I am studying at Bengkulu University, I continue
+                    to
+                    hone my skills to provide the best solutions for clients. I prioritize quality, efficiency and
+                    client satisfaction, and am ready to help turn your idea into a superior website.
+                    <br><br>
+                    Let's discuss your project!
+                </p>
+            </div>
+        </div>
+
+        <div class="bg-body-background   rounded-lg  flex flex-col items-center absolute  mx-6 mt-14" id="langu"
+            data-aos="fade-down" data-aos-offset="100">
+
+            <button class="bg-body-hover2  p-2 px-[15px]  rounded-lg flex gap-3 mt-2 " name="button" type="button"
+                id="lang">
+                <p class="font-teko text-2xl text-body-judul opacity-1">ENG</p>
+                <p class="font-teko text-2xl text-body-judul">IND</p>
+            </button>
+
+
+            <div class="flex flex-col items-center  bg">
+
+                <div class=" w-fit  mt-3">
+                    <p class="font-inter text-lg font-semibold text-body-judul">Tentang Saya</p>
+                </div>
+
+
+
+                <div class="m-4 ">
+
+                    <p class="text-body-text">
+                        Halo, Saya Ragil Kurniawan saya adalah Web Developer Profesional dengan keahlian dalam
+                        menciptakan website modern, responsif, dan fungsional. Saat ini, saya menempuh pendidikan di
+                        Universitas Bengkulu, saya terus mengasah kemampuan untuk memberikan solusi terbaik bagi
+                        klien.
+                        Saya mengutamakan kualitas, efisiensi, dan kepuasan klien, serta siap membantu mewujudkan
+                        ide
+                        Anda menjadi sebuah website yang unggul.
+                        <br><br>
+                        Mari diskusikan proyek Anda!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- deskripsi end -->
+
+    <!-- skill start -->
+    <section class=" flex  bg-body-background2 w-full ">
+        <div class="  rounded-lg w-full  flex flex-col items-center bg-body-background mx-6 mt-10 " data-aos="fade-down"
+            data-aos-offset="100">
+
+
+            <h1 class="font-inter text-body-judul font-semibold text-xl mt-2">My Skills</h1>
+
+
+            <div class=" flex gap-5 mt-5 mb-5 flex-wrap justify-center">
+
+                <div class="relative group w-20 h-20 overflow-hidden rounded-lg shadow-lg bg-body-background2 hover:scale-105 transition-transform duration-500"
+                    data-aos="zoom-in" data-aos-delay="100" data-aos-offset="10">
+
+                    <diV class="flex justify-center items-center">
+                        <svg role="img" width="60" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                            class=" mt-3 hover:opacity-2  transition duration-1000 cursor-pointer">
+                            <title>HTML5</title>
+                            <path
+                                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+                        </svg>
+                    </diV>
+
+
+                    <div
+                        class="absolute bottom-0 w-full bg-body-hover2 ro bg-opacity-70 text-body-judul p-2 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0 flex justify-center rounded-t-lg shadow-inner">
+                        <p class="text-sm font-bold  font-teko ">HTML</p>
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="flex flex-wrap  " data-aos="zoom-in" data-aos-delay="200" data-aos-offset="10">
+
+                    <div
+                        class="relative group w-20 h-20 overflow-hidden rounded-lg shadow-lg bg-body-background2 hover:scale-105 transition-transform duration-500">
+
+                        <diV class="flex justify-center items-center">
+                            <svg width="60" class=" mt-3 hover:opacity-2  transition duration-1000 cursor-pointer"
+                                role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>CSS3</title>
+                                <path
+                                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
+                            </svg>
+                        </diV>
+
+
+                        <div
+                            class="absolute bottom-0 w-full bg-body-hover2 ro bg-opacity-70 text-body-judul p-2 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0 flex justify-center rounded-t-lg shadow-inner">
+                            <p class="text-sm font-bold  font-teko ">CSS</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap  " data-aos="zoom-in" data-aos-delay="300" data-aos-offset="10">
+
+                    <div
+                        class="relative group w-20 h-20 overflow-hidden rounded-lg shadow-lg bg-body-background2 hover:scale-105 transition-transform duration-500">
+
+                        <diV class="flex justify-center items-center">
+                            <svg width="60" class=" mt-3 hover:opacity-2  transition duration-1000 cursor-pointer"
+                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50">
+                                <path
+                                    d="M45.274,2.325C45.084,2.118,44.817,2,44.536,2H5.464C5.183,2,4.916,2.118,4.726,2.325S4.443,2.81,4.468,3.089l3.52,39.427 c0.037,0.412,0.324,0.759,0.722,0.873l16.01,4.573C24.809,47.987,24.902,48,24.994,48s0.185-0.013,0.274-0.038l16.024-4.573 c0.398-0.114,0.685-0.461,0.722-0.873l3.518-39.427C45.557,2.81,45.463,2.532,45.274,2.325z M12,29.004l7,1.942V11h4v26l-11-3.051 V29.004z M38.054,22L37,34.25L27,37v-4.601l6.75-1.855l0.25-3.75L27,28V11h12l-0.345,4H31v8L38.054,22z">
+                                </path>
+                            </svg>
+                        </diV>
+
+
+                        <div
+                            class="absolute bottom-0 w-full bg-body-hover2 ro bg-opacity-70 text-body-judul p-2 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0 flex justify-center rounded-t-lg shadow-inner">
+                            <p class="text-sm font-bold  font-teko ">Java Script</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="flex flex-wrap  " data-aos="zoom-in" data-aos-delay="400" data-aos-offset="10">
+
+                    <div
+                        class="relative group w-20 h-20 overflow-hidden rounded-lg shadow-lg bg-body-background2 hover:scale-105 transition-transform duration-500">
+
+                        <diV class="flex justify-center items-center">
+                            <svg width="60" class=" mt-3 hover:opacity-2  transition duration-1000 cursor-pointer"
+                                role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Tailwind CSS</title>
+                                <path
+                                    d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
+                            </svg>
+                        </diV>
+
+
+                        <div
+                            class="absolute bottom-0 w-full bg-body-hover2 ro bg-opacity-70 text-body-judul p-2 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0 flex justify-center rounded-t-lg shadow-inner">
+                            <p class="text-sm font-bold  font-teko ">Tailwind</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="flex flex-wrap  " data-aos="zoom-in" data-aos-delay="500" data-aos-offset="10">
+
+                    <div
+                        class="relative group w-20 h-20 overflow-hidden rounded-lg shadow-lg bg-body-background2 hover:scale-105 transition-transform duration-500">
+
+                        <diV class="flex justify-center items-center">
+                            <svg width="60" class=" mt-3 hover:opacity-2  transition duration-1000 cursor-pointer"
+                                role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>React</title>
+                                <path
+                                    d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" />
+                            </svg>
+                        </diV>
+
+
+                        <div
+                            class="absolute bottom-0 w-full bg-body-hover2 ro bg-opacity-70 text-body-judul p-2 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0 flex justify-center rounded-t-lg shadow-inner">
+                            <p class="text-sm font-bold  font-teko ">ReactJS</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="flex flex-wrap  " data-aos="zoom-in" data-aos-delay="600" data-aos-offset="10">
+
+                    <div
+                        class="relative group w-20 h-20 overflow-hidden rounded-lg shadow-lg bg-body-background2 hover:scale-105 transition-transform duration-500">
+
+                        <diV class="flex justify-center items-center">
+                            <svg width="60" class=" mt-3 hover:opacity-2  transition duration-1000 cursor-pointer"
+                                role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Vue.js</title>
+                                <path
+                                    d="M24,1.61H14.06L12,5.16,9.94,1.61H0L12,22.39ZM12,14.08,5.16,2.23H9.59L12,6.41l2.41-4.18h4.43Z" />
+                            </svg>
+                        </diV>
+
+
+                        <div
+                            class="absolute bottom-0 w-full bg-body-hover2 ro bg-opacity-70 text-body-judul p-2 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0 flex justify-center rounded-t-lg shadow-inner">
+                            <p class="text-sm font-bold  font-teko ">VueJS</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="flex flex-wrap  " data-aos="zoom-in" data-aos-delay="700" data-aos-offset="10">
+
+                    <div
+                        class="relative group w-20 h-20 overflow-hidden rounded-lg shadow-lg bg-body-background2 hover:scale-105 transition-transform duration-500">
+
+                        <diV class="flex justify-center items-center">
+                            <svg width="60" class=" mt-3 hover:opacity-2  transition duration-1000 cursor-pointer"
+                                role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>PHP</title>
+                                <path
+                                    d="M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z" />
+                            </svg>
+                        </diV>
+
+
+                        <div
+                            class="absolute bottom-0 w-full bg-body-hover2 ro bg-opacity-70 text-body-judul p-2 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0 flex justify-center rounded-t-lg shadow-inner">
+                            <p class="text-sm font-bold  font-teko ">PHP</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="flex flex-wrap  " data-aos="zoom-in" data-aos-delay="800" data-aos-offset="10">
+
+                    <div
+                        class="relative group w-20 h-20 overflow-hidden rounded-lg shadow-lg bg-body-background2 hover:scale-105 transition-transform duration-500">
+
+                        <diV class="flex justify-center items-center">
+                            <svg width="60" class=" mt-3 hover:opacity-2  transition duration-1000 cursor-pointer"
+                                role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Laravel</title>
+                                <path
+                                    d="M23.642 5.43a.364.364 0 01.014.1v5.149c0 .135-.073.26-.189.326l-4.323 2.49v4.934a.378.378 0 01-.188.326L9.93 23.949a.316.316 0 01-.066.027c-.008.002-.016.008-.024.01a.348.348 0 01-.192 0c-.011-.002-.02-.008-.03-.012-.02-.008-.042-.014-.062-.025L.533 18.755a.376.376 0 01-.189-.326V2.974c0-.033.005-.066.014-.098.003-.012.01-.02.014-.032a.369.369 0 01.023-.058c.004-.013.015-.022.023-.033l.033-.045c.012-.01.025-.018.037-.027.014-.012.027-.024.041-.034H.53L5.043.05a.375.375 0 01.375 0L9.93 2.647h.002c.015.01.027.021.04.033l.038.027c.013.014.02.03.033.045.008.011.02.021.025.033.01.02.017.038.024.058.003.011.01.021.013.032.01.031.014.064.014.098v9.652l3.76-2.164V5.527c0-.033.004-.066.013-.098.003-.01.01-.02.013-.032a.487.487 0 01.024-.059c.007-.012.018-.02.025-.033.012-.015.021-.03.033-.043.012-.012.025-.02.037-.028.014-.01.026-.023.041-.032h.001l4.513-2.598a.375.375 0 01.375 0l4.513 2.598c.016.01.027.021.042.031.012.01.025.018.036.028.013.014.022.03.034.044.008.012.019.021.024.033.011.02.018.04.024.06.006.01.012.021.015.032zm-.74 5.032V6.179l-1.578.908-2.182 1.256v4.283zm-4.51 7.75v-4.287l-2.147 1.225-6.126 3.498v4.325zM1.093 3.624v14.588l8.273 4.761v-4.325l-4.322-2.445-.002-.003H5.04c-.014-.01-.025-.021-.04-.031-.011-.01-.024-.018-.035-.027l-.001-.002c-.013-.012-.021-.025-.031-.04-.01-.011-.021-.022-.028-.036h-.002c-.008-.014-.013-.031-.02-.047-.006-.016-.014-.027-.018-.043a.49.49 0 01-.008-.057c-.002-.014-.006-.027-.006-.041V5.789l-2.18-1.257zM5.23.81L1.47 2.974l3.76 2.164 3.758-2.164zm1.956 13.505l2.182-1.256V3.624l-1.58.91-2.182 1.255v9.435zm11.581-10.95l-3.76 2.163 3.76 2.163 3.759-2.164zm-.376 4.978L16.21 7.087 14.63 6.18v4.283l2.182 1.256 1.58.908zm-8.65 9.654l5.514-3.148 2.756-1.572-3.757-2.163-4.323 2.489-3.941 2.27z" />
+                            </svg>
+                        </diV>
+
+
+                        <div
+                            class="absolute bottom-0 w-full bg-body-hover2 ro bg-opacity-70 text-body-judul p-2 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0 flex justify-center rounded-t-lg shadow-inner">
+                            <p class="text-sm font-bold  font-teko ">Laravel</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="flex flex-wrap  " data-aos="zoom-in" data-aos-delay="900" data-aos-offset="10">
+
+                    <div
+                        class="relative group w-20 h-20 overflow-hidden rounded-lg shadow-lg bg-body-background2 hover:scale-105 transition-transform duration-500">
+
+                        <diV class="flex justify-center items-center">
+                            <svg width="60" class=" mt-3 hover:opacity-2  transition duration-1000 cursor-pointer"
+                                role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Git</title>
+                                <path
+                                    d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187" />
+                            </svg>
+                        </diV>
+
+
+                        <div
+                            class="absolute bottom-0 w-full bg-body-hover2 ro bg-opacity-70 text-body-judul p-2 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0 flex justify-center rounded-t-lg shadow-inner">
+                            <p class="text-sm font-bold  font-teko ">Git</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="flex flex-wrap  " data-aos="zoom-in" data-aos-delay="1000" data-aos-offset="10">
+
+                    <div
+                        class="relative group w-20 h-20 overflow-hidden rounded-lg shadow-lg bg-body-background2 hover:scale-105 transition-transform duration-500">
+
+                        <diV class="flex justify-center items-center">
+                            <svg width="60" class=" mt-3 hover:opacity-2  transition duration-1000 cursor-pointer"
+                                role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>GitHub</title>
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                            </svg>
+                        </diV>
+
+
+                        <div
+                            class="absolute bottom-0 w-full bg-body-hover2 ro bg-opacity-70 text-body-judul p-2 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0 flex justify-center rounded-t-lg shadow-inner">
+                            <p class="text-sm font-bold  font-teko ">GitHub</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="flex flex-wrap  " data-aos="zoom-in" data-aos-delay="1100" data-aos-offset="10">
+
+                    <div
+                        class="relative group w-20 h-20 overflow-hidden rounded-lg shadow-lg bg-body-background2 hover:scale-105 transition-transform duration-500">
+
+                        <diV class="flex justify-center items-center">
+                            <svg width="60" class=" mt-3 hover:opacity-2  transition duration-1000 cursor-pointer"
+                                role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>MySQL</title>
+                                <path
+                                    d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z" />
+                            </svg>
+                        </diV>
+
+
+                        <div
+                            class="absolute bottom-0 w-full bg-body-hover2 ro bg-opacity-70 text-body-judul p-2 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0 flex justify-center rounded-t-lg shadow-inner">
+                            <p class="text-sm font-bold  font-teko ">MySQL</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="flex flex-wrap  " data-aos="zoom-in" data-aos-delay="1200" data-aos-offset="10">
+
+                    <div
+                        class="relative group w-20 h-20 overflow-hidden rounded-lg shadow-lg bg-body-background2 hover:scale-105 transition-transform duration-500">
+
+                        <diV class="flex justify-center items-center">
+                            <svg width="60" class=" mt-3 hover:opacity-2  transition duration-1000 cursor-pointer"
+                                role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>npm</title>
+                                <path
+                                    d="M1.763 0C.786 0 0 .786 0 1.763v20.474C0 23.214.786 24 1.763 24h20.474c.977 0 1.763-.786 1.763-1.763V1.763C24 .786 23.214 0 22.237 0zM5.13 5.323l13.837.019-.009 13.836h-3.464l.01-10.382h-3.456L12.04 19.17H5.113z" />
+                            </svg>
+                        </diV>
+
+
+                        <div
+                            class="absolute bottom-0 w-full bg-body-hover2 ro bg-opacity-70 text-body-judul p-2 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0 flex justify-center rounded-t-lg shadow-inner">
+                            <p class="text-sm font-bold  font-teko ">NPM</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- skill end -->
+
+    <!-- education start -->
+    <section class="flex  bg-body-background2 w-full">
+        <div class="bg-body-background mx-6 mt-14 rounded-lg shadow-lg flex flex-col items-center " data-aos="fade-up"
+            data-aos-offset="100">
+
+            <div class=" w-fit mt-3 ">
+                <h1 class="font-inter text-xl font-semibold text-body-judul">Education</h1>
+            </div>
+
+            <div class="flex flex-wrap justify-center">
+                <div class="bg-body-background2 p-5 m-5 rounded-lg shadow-lg flex flex-col  w-72 lg:w-96 hover:scale-105 transition-transform duration-500"
+                    data-aos="zoom-in" data-aos-delay="100" data-aos-offset="10">
+
+
+                    <img class="hover:scale-105  transition-transform duration-500 rounded-lg"
+                        src="assets/serti dasar.png">
+
+                    <div class="flex  justify-center gap-5 mt-4">
+                        <a href="assets/pdf/serti dasar.pdf" target="_blank">
+
+                            <div
+                                class="bg-body-background p-2 rounded-lg hover:scale-105 hover:opacity-1 transition-transform duration-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path
+                                        d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
+                                </svg>
+                            </div>
+                        </a>
+
+                        <a href="assets/pdf/serti dasar.pdf" download="serti dasar.pdf">
+                            <div
+                                class="bg-body-background p-2 rounded-lg hover:scale-105 hover:opacity-1 transition-transform duration-500">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path
+                                        d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z" />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-body-background2 p-5 m-5 rounded-lg shadow-lg flex flex-col w-72 lg:w-96 hover:scale-105 transition-transform duration-500"
+                    data-aos="zoom-in" data-aos-delay="200" data-aos-offset="10">
+
+
+                    <img class="hover:scale-105 transition-transform duration-500 rounded-lg" src="assets/serti js.png">
+
+                    <div class="flex  justify-center gap-5 mt-4">
+                        <a href="assets/pdf/serti js.pdf" target="_blank">
+
+                            <div
+                                class="bg-body-background p-2 rounded-lg hover:scale-105 hover:opacity-1 transition-transform duration-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path
+                                        d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
+                                </svg>
+                            </div>
+                        </a>
+
+                        <a href="assets/pdf/serti js.pdf" download="serti dasar.pdf">
+                            <div
+                                class="bg-body-background p-2 rounded-lg hover:scale-105 hover:opacity-1 transition-transform duration-500">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path
+                                        d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z" />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-body-background2 p-5 m-5 rounded-lg shadow-lg flex flex-col w-72 lg:w-96 hover:scale-105 transition-transform duration-500"
+                    data-aos="zoom-in" data-aos-delay="300" data-aos-offset="10">
+
+
+                    <img class="hover:scale-105 transition-transform duration-500 rounded-lg" src="assets/serti vd.png">
+
+                    <div class="flex  justify-center gap-5 mt-4">
+                        <a href="assets/pdf/serti visualisasi data.pdf" target="_blank">
+
+                            <div
+                                class="bg-body-background p-2 rounded-lg hover:scale-105 hover:opacity-1 transition-transform duration-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path
+                                        d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
+                                </svg>
+                            </div>
+                        </a>
+
+                        <a href="assets/pdf/serti visualisasi data.pdf" download="serti dasar.pdf">
+                            <div
+                                class="bg-body-background p-2 rounded-lg hover:scale-105 hover:opacity-1 transition-transform duration-500">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path
+                                        d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z" />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-body-background2 p-5 m-5 rounded-lg shadow-lg flex flex-col w-72 lg:w-96 hover:scale-105 transition-transform duration-500"
+                    data-aos="zoom-in" data-aos-delay="400" data-aos-offset="10">
+
+
+                    <img class="hover:scale-105 transition-transform duration-500 rounded-lg"
+                        src="assets/serti myskill.png">
+
+                    <div class="flex  justify-center gap-5 mt-4">
+                        <a href="assets/pdf/certifikat2.pdf" target="_blank">
+
+                            <div
+                                class="bg-body-background p-2 rounded-lg hover:scale-105 hover:opacity-1 transition-transform duration-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path
+                                        d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
+                                </svg>
+                            </div>
+                        </a>
+
+                        <a href="assets/pdf/certifikat2.pdf dasar.pf" download="serti dasar.pdf">
+                            <div
+                                class="bg-body-background p-2 rounded-lg hover:scale-105 hover:opacity-1 transition-transform duration-500">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path
+                                        d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z" />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- education end -->
+
+    <!-- about end -->
+
+
+    <!-- portofolio start -->
+    <section id="portofolio" class="flex  bg-body-background2 w-full">
+        <div class="bg-body-background rounded-lg mx-6 mt-14 flex flex-col w-full items-center" id="portofolio "
+            data-aos="fade-up" data-aos-offset="100">
+
+            <div class="my-2 font-inter text-body-judul font-semibold text-xl ">
+                <h1>My Last Project</h1>
+            </div>
+
+            <div class="flex flex-wrap justify-center">
+                <div class="bg-body-background2 p-5 m-5 rounded-lg shadow-lg flex flex-col w-72 lg:w-96 hover:scale-105 transition-transform duration-500"
+                    data-aos="zoom-in" data-aos-delay="100" data-aos-offset="10">
+
+                    <div>
+                        <img class="rounded-lg hover:scale-105 transition-transform duration-500"
+                            src="assets/project1.png" alt="project1">
+                    </div>
+
+                    <div class="mt-2">
+                        <p class="font-inter text-body-text">A modern, simple, responsive personal website offering
+                            a
+                            clean experience, adaptable to all
+                            screen sizes.</p>
+                    </div>
+
+
+                    <div class="flex justify-center gap-5 mt-4">
+                        <a href="https://carolinepage.netlify.app/" target="_blank">
+                            <div
+                                class="bg-body-background p-2 rounded-lg hover:scale-105 hover:opacity-1 transition-transform duration-500 w-fit mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path
+                                        d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
+                                </svg>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/gil1959/carolinepage" target="_blank">
+                            <div
+                                class="bg-body-background p-2 rounded-lg hover:scale-105 hover:opacity-1 transition-transform duration-500 w-fit mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path
+                                        d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z" />
+                                </svg>
+                            </div>
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+                <div class="bg-body-background2 p-5 m-5 rounded-lg shadow-lg flex flex-col w-72 lg:w-96 hover:scale-105 transition-transform duration-500"
+                    data-aos="zoom-in" data-aos-delay="200" data-aos-offset="10">
+
+                    <div>
+                        <img class="rounded-lg hover:scale-105 transition-transform duration-500"
+                            src="assets/project2.png" alt="project2">
+                    </div>
+
+                    <div class="mt-2">
+                        <p class="font-inter text-body-text">A modern, simple, responsive website showcasing BMW E36
+                            features, history, and specifications seamlessly.
+                        </p>
+                    </div>
+
+
+                    <div class="flex justify-center gap-5 mt-4">
+                        <a href="https://legendary-syrniki-5f6299.netlify.app/" target="_blank">
+                            <div
+                                class="bg-body-background p-2 rounded-lg hover:scale-105 hover:opacity-1 transition-transform duration-500 w-fit mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path
+                                        d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
+                                </svg>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/gil1959/bmw1" target="_blank">
+                            <div
+                                class="bg-body-background p-2 rounded-lg hover:scale-105 hover:opacity-1 transition-transform duration-500 w-fit mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path
+                                        d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z" />
+                                </svg>
+                            </div>
+                        </a>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- portofolio end -->
+
+
+    <!-- contact start -->
+    <section class="flex flex-wrap bg-body-background2 w-full sm:flex-nowrap" id="contact">
+        <div class="bg-body-background rounded-lg mx-6 mt-14 flex flex-col items-center w-full sm:w-1/2 py-5"
+            id="contact" data-aos="fade-right" data-aos-offset="100">
+            <h1 class="font-inter text-xl font-semibold text-body-judul">Contact</h1>
+
+            <div class="flex flex-col sm:mt-14">
+                <form class="flex flex-col gap-5">
+
+                    <div class="flex flex-col">
+                        <label class="text-body-text font-jersey" for="name">Name:</label>
+                        <input class="rounded-xl opacity-1 item p-2" type="text" placeholder="Your Name"
+                            autocomplete="off" id="name" name="name">
+                        <div class="text-red-600 errorTxt hidden">
+                            <p>Name can't be blank</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col">
+                        <label class="text-body-text font-jersey" for="email">Email:</label>
+                        <input class="rounded-xl opacity-1 item p-2" placeholder="Your Email" autocomplete="off"
+                            type="email" id="email" name="email">
+                        <div class="text-red-600 errorTxt hidden">
+                            <p>Please input a valid email!</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col">
+                        <label class="text-body-text font-jersey" for="message">Message:</label>
+                        <input class="rounded-xl opacity-1 h-16 p-3 item" placeholder="Your Message" autocomplete="off"
+                            type="text" id="message" name="message">
+                        <div class="text-red-600 errorTxt hidden">
+                            <p>Message can't be blank</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center ">
+                        <button type="submit"
+                            class="btn bg-body-hover2 w-fit p-2 rounded-lg font-inter text-body-judul hover:opacity-1  transition duration-300"
+                            id="submit-btn">Send</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="bg-body-background rounded-lg mx-6 mt-14 flex flex-col items-center w-full sm:w-1/2 py-5"
+            data-aos-offset="100" data-aos="fade-left">
+
+            <h1 class="font-inter text-xl font-semibold text-body-judul">Contact</h1>
+
+            <div class="flex flex-col gap-5 mt-5">
+
+                <a href="https://github.com/gil1959" target="_blank" class="">
+                    <div
+                        class="bg-body-background2 w-56 p-2 rounded-lg flex justify-start gap-8 hover:scale-105 transition duration-300">
+                        <svg role="img" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                            class="hover:opacity-2 transition duration-200">
+                            <title>GitHub</title>
+                            <path
+                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                        </svg>
+                        <p class="font-teko text-body-judul text-3xl mt-2">GitHub</p>
+                    </div>
+
+
+                </a>
+                <a href="mailto:ragilkurniawan174@gmail.com">
+                    <div
+                        class="bg-body-background2 w-56 p-2 rounded-lg flex justify-start gap-8 hover:scale-105 transition duration-300 ">
+                        <svg role="img" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                            class="hover:opacity-2 transition duration-200">
+                            <title>Gmail</title>
+                            <path
+                                d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
+                        </svg>
+                        <p class="font-teko text-body-judul text-3xl mt-2">Email</p>
+                    </div>
+
+                </a>
+                <a href="https://www.linkedin.com/in/ragil-kurniawan-7a96b3336/" target="_blank">
+                    <div
+                        class="bg-body-background2 w-56 p-2 rounded-lg flex justify-start gap-8 hover:scale-105 transition duration-300 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" viewBox="0 0 50 50"
+                            class="hover:opacity-2 transition duration-200">
+                            <path
+                                d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z">
+                            </path>
+                        </svg>
+                        <p class="font-teko text-body-judul text-3xl mt-2">Linkeln</p>
+                    </div>
+
+
+                </a>
+                <a href="https://wa.me/6285709271847" target="_blank">
+                    <div
+                        class="bg-body-background2 w-56 p-2 rounded-lg flex justify-start gap-8 hover:scale-105 transition duration-300 ">
+                        <svg role="img" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                            class="hover:opacity-2 transition duration-200">
+                            <title>WhatsApp</title>
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                        </svg>
+                        <p class="font-teko text-body-judul text-3xl mt-2">WhatsApp</p>
+                    </div>
+
+                </a>
+                <a href="https://www.instagram.com/ragil9675/profilecard/?igsh=eTY5eDl5cG14YTV2" target="_blank">
+                    <div
+                        class="bg-body-background2 w-56 p-2 rounded-lg flex justify-start gap-8 hover:scale-105 transition duration-300 ">
+                        <svg role="img" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                            class="hover:opacity-2 transition duration-200">
+                            <title>Instagram</title>
+                            <path
+                                d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+                        </svg>
+                        <p class="font-teko text-body-judul text-3xl mt-2">Instagram</p>
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- contact end -->
+
+
+    <!-- footer start -->
+    <footer class="bg-body-background flex flex-col justify-center items-center p-5  mt-14">
+        <div class="flex flex-wrap gap-5 justify-center  md:w-[40rem] md:justify-between">
+            <div class="border-r-2 pr-2 md:pr-28 flex flex-col gap-3 text-body-judul font-inter font-semibold">
+                <h3> Ragil Kurniawan</h3>
+                <p>ragilkurniawan174@gmail.com</p>
+                <p>+6285709271847</p>
+            </div>
+
+            <div class="-ml-3">
+                <h2 class="mb-2 text-body-judul font-bold font-inter text-xl">Tautan</h2>
+                <ul class="text-body-text font-inter ">
+                    <a href="#home">
+                        <li>Home</li>
+                    </a>
+                    <a href="#about">
+                        <li>About Me</li>
+                    </a>
+                    <a href="portofolio">
+                        <li>Portofolio</li>
+                    </a>
+                    <a href="#contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex flex-col  mt-5 justify-center ">
+            <div class=" flex  justify-center mt-3  gap-2">
+
+                <a href="https://github.com/gil1959" target="_blank" class="">
+                    <svg role="img" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="hover:opacity-2 transition duration-200">
+                        <title>GitHub</title>
+                        <path
+                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                    </svg>
+                </a>
+                <a href="mailto:carolineciselia@gmail.com">
+                    <svg role="img" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="hover:opacity-2 transition duration-200">
+                        <title>Gmail</title>
+                        <path
+                            d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/ragil-kurniawan-7a96b3336/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" viewBox="0 0 50 50"
+                        class="hover:opacity-2 transition duration-200">
+                        <path
+                            d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z">
+                        </path>
+                    </svg>
+
+                </a>
+                <a href="https://wa.me/6285709271847" target="_blank">
+                    <svg role="img" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="hover:opacity-2 transition duration-200">
+                        <title>WhatsApp</title>
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/ragil9675/profilecard/?igsh=eTY5eDl5cG14YTV2" target="_blank">
+                    <svg role="img" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="hover:opacity-2 transition duration-200">
+                        <title>Instagram</title>
+                        <path
+                            d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+                    </svg>
+                </a>
+
+            </div>
+
+            <div class="flex  justify-center mt-3">
+                <p> &#169; 2024 Ragil Kurniawan</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin)
+        gsap.from('#txt1', { duration: 1, delay: 1, y: -50, opacity: 0 })
+
+        gsap.to('#txthome', { duration: 2, delay: 2, text: 'Ragil Kurniawan' })
+
+        gsap.from('#txt2', { duration: 1, delay: 4, x: -100, opacity: 0 })
+
+        gsap.from('#iconhome1', { duration: 1, delay: 5, x: -100, opacity: 0 })
+
+        gsap.from('#iconhome2', { duration: 1, delay: 5, x: 100, opacity: 0 })
+
+        gsap.from('#arrow1', { duration: 1, delay: 6, y: 50, opacity: 0 })
+    </script>
+
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-fixed {
+    @apply fixed z-[10000] bg-body-background2 bg-opacity-80;
+    
+    
+}
+
+
+
+.button-line{
+    @apply w-[30px] h-[2px] my-2 block bg-body-judul;
+}
+
+.button-acctive > span:nth-child(1) {
+    @apply rotate-45;
+}
+.button-acctive > span:nth-child(2) {
+    @apply scale-0
+}
+.button-acctive > span:nth-child(3) {
+    @apply -rotate-45;
+}
